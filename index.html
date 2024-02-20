@@ -57,9 +57,10 @@
     <link rel="preload" href="/_nuxt/08ec638.js" as="script">
     <link rel="preload" href="/_nuxt/d770d6d.js" as="script">
     <style data-vue-ssr-id="6f4e3760:0 65b97e00:0 709683a2:0 3d0be20e:0 7f412576:0">
-        html{
+        html {
             overflow-x: hidden;
         }
+
         .vue-swatches__check__wrapper {
             height: 100%;
             position: absolute;
@@ -15591,7 +15592,7 @@
 
         .pic-ctn {
             width: 100vw;
-            height: 200px;
+            height: 500px;
         }
 
         @keyframes display {
@@ -15624,16 +15625,17 @@
         .pic-ctn {
             position: relative;
             width: 100vw;
-            height: 300px;
+            height: 500px;
             margin-top: 15vh;
         }
 
         .pic-ctn>img {
             position: absolute;
             top: 0;
-            left: calc(50% - 100px);
+            left: calc(50% - 150px);
             opacity: 0;
             animation: display 10s infinite;
+            width: 300px;
         }
 
         img:nth-child(2) {
@@ -15657,7 +15659,7 @@
     <script src="https://rec.smartlook.com/es5/init.13f24b31d998c486399d.js" nomodule=""></script>
     <script>
         setTimeout(() => {
-            document.getElementById('invite-cover').style.opacity = '0'
+            document.getElementById('invite-cover').style.display = 'none'
         }, 3000)
     </script>
 </head>
@@ -15698,8 +15700,7 @@
                                     class="nav-item nav-link" data-v-233c07de="">Contact</a></div>
                         </div>
                     </nav>
-                    <div id="invite-cover" data-v-233c07de=""
-                        style="transition: opacity 400ms ease 0s;">
+                    <div id="invite-cover" data-v-233c07de="" style="transition: display 400ms ease 0s;">
                         <div class="invite-center container-fluid" data-v-233c07de="">
                             <div class="container py-5" data-v-233c07de="">
                                 <div class="section-title position-relative text-center" data-v-233c07de="">
@@ -15735,31 +15736,7 @@
                             data-v-233c07de="">
                             <div class="carousel-inner" data-v-233c07de="">
                                 <div class="carousel-item position-relative carousel-height active"
-                                    style="min-height: 400px" data-v-233c07de=""><img
-                                        src="img/carousel-1.JPG" class="position-absolute w-100 h-100"
-                                        style="object-fit: cover" data-v-233c07de="">
-                                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center"
-                                        data-v-233c07de="">
-                                        <div class="p-3" style="max-width: 900px" data-v-233c07de="">
-                                            <h1 class="display-1 text-white mt-n3 mb-md-4"
-                                                style="color:white !important;font-family:'Great Vibes',cursive !important;"
-                                                data-v-233c07de="">
-                                                Shahi
-                                                &amp;
-                                                Mayur
-                                            </h1>
-                                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4"
-                                                data-v-233c07de="">
-                                                <h3 class="text-uppercase font-weight-normal text-white m-0"
-                                                    style="letter-spacing: 2px" data-v-233c07de="">
-                                                    We're getting married
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item position-relative carousel-height" style="min-height: 400px"
-                                    data-v-233c07de=""><img src="img/carousel-2.webp"
+                                    style="min-height: 400px" data-v-233c07de=""><img src="img/carousel-1.JPG"
                                         class="position-absolute w-100 h-100" style="object-fit: cover"
                                         data-v-233c07de="">
                                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center"
@@ -15782,18 +15759,46 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div> <a href="#header-carousel" data-slide="prev"
+                                <div class="carousel-item position-relative carousel-height" style="min-height: 400px"
+                                    data-v-233c07de=""><img src="img/caurosel-2.jpeg"
+                                        class="position-absolute w-100 h-100" style="object-fit: cover"
+                                        data-v-233c07de="">
+                                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+                                        data-v-233c07de="">
+                                        <div class="p-3" style="max-width: 900px" data-v-233c07de="">
+                                            <h1 class="display-1 text-white mt-n3 mb-md-4"
+                                                style="color:white !important;font-family:'Great Vibes',cursive !important;"
+                                                data-v-233c07de="">
+                                                Shahi
+                                                &amp;
+                                                Mayur
+                                            </h1>
+                                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4"
+                                                data-v-233c07de="">
+                                                <h3 class="text-uppercase font-weight-normal text-white m-0"
+                                                    style="letter-spacing: 2px" data-v-233c07de="">
+                                                    We're getting married
+                                                </h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#header-carousel" data-slide="prev"
                                 class="carousel-control-prev justify-content-start" data-v-233c07de="">
                                 <div class="btn px-0 "
                                     style="width:68px;height:68px;background-color:#e47a2e !important;"
-                                    data-v-233c07de=""><span class="carousel-control-prev-icon mt-3"
-                                        data-v-233c07de=""></span></div>
-                            </a> <a href="#header-carousel" data-slide="next"
+                                    data-v-233c07de="">
+                                    <span class="carousel-control-prev-icon mt-3" data-v-233c07de=""></span>
+                                </div>
+                            </a>
+                            <a href="#header-carousel" data-slide="next"
                                 class="carousel-control-next justify-content-end" data-v-233c07de="">
                                 <div class="btn px-0 "
                                     style="width:68px;height:68px;background-color:#e47a2e !important;"
-                                    data-v-233c07de=""><span class="carousel-control-next-icon mt-3"
-                                        data-v-233c07de=""></span></div>
+                                    data-v-233c07de="">
+                                    <span class="carousel-control-next-icon mt-3" data-v-233c07de=""></span>
+                                </div>
                             </a>
                         </div>
                     </div>
@@ -15843,12 +15848,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 p-0" style="min-height: 400px" data-v-233c07de=""><img
-                                        src="img/about-1.webp" class="position-absolute w-100 h-100"
+                                        src="img/about-1.JPG" class="position-absolute w-100 h-100"
                                         style="object-fit: cover" data-v-233c07de=""></div>
                             </div>
                             <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0" data-v-233c07de="">
                                 <div class="col-md-6 p-0" style="min-height: 400px" data-v-233c07de=""><img
-                                        src="img/about-2.webp" class="position-absolute w-100 h-100"
+                                        src="img/about-2.JPG" class="position-absolute w-100 h-100"
                                         style="object-fit: cover" data-v-233c07de=""></div>
                                 <div class="col-md-6 p-0 text-center text-md-right" data-v-233c07de="">
                                     <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5"
@@ -15952,7 +15957,7 @@
                     <div id="gallery" data-scroll-target="gallery" class="container-fluid"
                         style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) 0% 0% / cover, url(&quot;img/gallery-1-1.webp&quot;), center center no-repeat; padding: 120px 0px; margin: 90px 0px;"
                         data-v-233c07de="">
-                        <div class="section-title position-relative text-center" style="margin-bottom: 120px"
+                        <div class="section-title position-relative text-center" style="margin-bottom: 90px"
                             data-v-233c07de="">
                             <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px" data-v-233c07de="">
                                 Gallery
@@ -15963,11 +15968,11 @@
                             </h1> <i class="far fa-heart text-white" data-v-233c07de=""></i>
                         </div>
                         <div class="pic-ctn">
-                            <img src="https://picsum.photos/200/300?t=1" alt="" class="pic">
-                            <img src="https://picsum.photos/200/300?t=2" alt="" class="pic">
-                            <img src="https://picsum.photos/200/300?t=3" alt="" class="pic">
-                            <img src="https://picsum.photos/200/300?t=4" alt="" class="pic">
-                            <img src="https://picsum.photos/200/300?t=5" alt="" class="pic">
+                            <img src="img/gallery-1.JPEG" alt="" class="pic">
+                            <img src="img/gallery-2.JPEG" alt="" class="pic">
+                            <img src="img/gallery-3.JPEG" alt="" class="pic">
+                            <img src="img/gallery-4.JPEG" alt="" class="pic">
+                            <img src="img/gallery-5.JPEG" alt="" class="pic">
                         </div>
                     </div>
                     <div id="event" data-scroll-target="event" class="container-fluid py-5" data-v-233c07de="">
@@ -16114,7 +16119,7 @@
                                 <div class="col-lg-4 col-md-5 mb-4 portfolio-item second" data-v-233c07de="">
                                     <div class="position-relative mb-2" data-v-233c07de="">
                                         <div class="bg-secondary text-center p-4" data-v-233c07de="">
-                                            <h4 class="mb-3" data-v-233c07de="">Akshat, Saumya, Mahi, Pari, Parv
+                                            <h4 class="mb-3" data-v-233c07de="">Akshat, Saumya, Mahi, Pari &amp; Parv
                                                 Bafna</h4>
                                             <p data-v-233c07de="">Bride's army</p>
                                         </div>
@@ -16123,7 +16128,7 @@
                                 <div class="col-lg-4 col-md-5 mb-4 portfolio-item second" data-v-233c07de="">
                                     <div class="position-relative mb-2" data-v-233c07de="">
                                         <div class="bg-secondary text-center p-4" data-v-233c07de="">
-                                            <h4 class="mb-3" data-v-233c07de="">Victoria Langley</h4>
+                                            <h4 class="mb-3" data-v-233c07de="">Aayush, Chaheti, Kavya &amp; Jigyansh Lodha</h4>
                                             <p data-v-233c07de="">Groom's army</p>
                                         </div>
                                     </div>
